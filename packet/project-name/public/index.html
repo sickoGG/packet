@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+      <link rel="stylesheet" href="/adminlte/plugins/fontawesome-free/css/all.min.css">
+      <link rel="stylesheet" href="/adminlte/dist/css/adminlte.min.css?v=3.2.0">
+      <link rel="stylesheet" href="/adminlte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+      <link rel="stylesheet" href="https://jqwidgets.com/public/jqwidgets/styles/jqx.base.css" type="text/css" />
+      <link rel="stylesheet" href="https://unpkg.com/vue-multiselect@2.1.6/dist/vue-multiselect.min.css">
+  </head>
+  <body class="hold-transition sidebar-mini layout-fixed" data-panel-auto-height-mode="height">
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <script src="/adminlte/plugins/jquery/jquery.min.js"></script>
+    <script src="/adminlte/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script>
+        $.widget.bridge('uibutton', $.ui.button)
+    </script>
+    <script src="/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/adminlte/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <script src="/adminlte/dist/js/adminlte.js?v=3.2.0"></script>
+    <style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://jqwidgets.com/public/jqwidgets/jqx-all.js"></script>
+
+    <script src="https://unpkg.com/vue-multiselect@2.1.6"></script>
+
+  </body>
+</html>
